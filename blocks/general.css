@@ -67,7 +67,6 @@ body {
     #101010;
 }
 
-
 /* BASE RESPONSIVA Y PREVENCIÓN DE DESBORDAMIENTOS */
 *,
 *::before,
@@ -97,4 +96,3 @@ img {
   display: block;
   max-width: 100%;
 }
-
