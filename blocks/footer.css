@@ -39,11 +39,9 @@
   text-decoration: none;
 }
 
-.footer-link:hover {
-  background: #ffffff;
-  color: #111111;
+.footer-link > img:hover {
+  border: 3px solid blueviolet;
 }
-
 
 .footer {
   width: min(90%, 1296px);
