@@ -78,17 +78,14 @@
 /* TABLET Y VENTANAS MEDIANAS */
 @media screen and (max-width: 1023px) {
   .header {
-    width: min(90%, 820px);
     margin-bottom: 76px;
-    gap: 32px;
     align-items: start;
   }
 
+  /* El elemento puede crecer  y decrecer para ocupar espacio disponible.
+    Su tamaño inicial será aproximadamente el 52% */
   .header__content {
-    /*flex: 1 1 52%;*/
-    flex-grow: 1; /*El elemento puede crecer para ocupar espacio disponible.*/
-    flex-shrink: 1; /*El elemento puede reducirse cuando no hay suficiente espacio.*/
-    flex-basis: 52%; /*Su tamaño inicial será aproximadamente el 52% del espacio disponible.*/
+    flex: 1 1 52%;
     width: auto;
     min-width: 0;
   }
@@ -136,8 +133,6 @@
     width: calc(100% - 40px);
     margin-bottom: 56px;
     flex-direction: column;
-    gap: 28px;
-    align-items: stretch; /*hace que los elementos hijos se estiren para ocupar toda la altura disponible del contenedor*/
   }
 
   .header__photo-img {

@@ -128,6 +128,11 @@
   font-size: 24px;
 }
 
+.project-card__info-block {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
 .project-card__info-text {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 18px;
